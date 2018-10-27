@@ -1,0 +1,102 @@
+body {
+  margin: 0px;
+  background: white (240, 240, 240);
+  color: rgb(20, 20, 20);
+  font-family: "Krub", sans-serif;
+	font-size: 18px;
+}
+
+h2, h3 {
+  font-family: Krub, sans-serif;
+  font-weight: regular
+ ;
+}
+h1 {
+	font-size: 70px;
+	font-family: Varela Round, sans-serif;
+	color:white;
+}
+h2 {
+  font-size: 20px;
+  color: #5D5857;
+}
+
+h3 { color: #95B1B4;
+	font-size:24px;
+	font-family:Krub, sans-serif;
+}
+
+a {
+  color: #F5FFF8;
+  text-decoration: none;
+  font-size: 25px
+}
+a:hover {
+  color: #30494A;
+}
+
+.img-circle{border-radius: 50%}
+
+.banner{
+  text-align: center;
+  color: white;
+	padding: 150px;
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%), url("https://picsum.photos/1000/600?random");
+  background-size: cover;
+	background-position: center;
+}
+
+.content{
+	text-align: center;
+  color: #95B1B4;
+  padding:80px Opx;
+  background: white;
+  margin-top: 60px;
+
+}
+
+.btn-blue {
+  color: white;
+  background: #95B1B4;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  border-radius: 4px;
+  padding: 15px 20px;
+  margin-top: 40px;
+}
+.btn-blue:hover {
+  background: #7795f8;
+  color: white;
+}
+
+.card-white {
+  background-color: white;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 20px 10px;
+  margin: 50px 0px;
+  height: 300px;
+}
+.card-white img {
+  margin-bottom: 50px 10px;
+}
+
+.value prop {
+	text-align: center;
+ 	margin: 80px 0px;
+ 	padding: 50px 0px;
+  
+}
+
+.fab fa-facebook {
+	color: #17241E;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 0px 8px;
+}
